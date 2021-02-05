@@ -1,0 +1,197 @@
+{
+    "passages": [
+      {
+        "text": "You are standing in front of Assembly Hall in Bloomington.\n\n[[Go to Memorial Stadium->Memorial Stadium]]\n[[Walk to Wells library->Wells library]]\n[[Drive to Kirkwood->Kirkwood Ave.]]\n[[Leave IU campus->Leave Campus]]",
+        "links": [
+          {
+            "name": "Go to Memorial Stadium",
+            "link": "Memorial Stadium",
+            "pid": "2"
+          },
+          {
+            "name": "Walk to Wells library",
+            "link": "Wells library",
+            "pid": "3"
+          },
+          {
+            "name": "Drive to Kirkwood",
+            "link": "Kirkwood Ave.",
+            "pid": "4"
+          },
+          {
+            "name": "Leave IU campus",
+            "link": "Leave Campus",
+            "pid": "5"
+          }
+        ],
+        "name": "Assembly Hall",
+        "pid": "1",
+        "position": {
+          "x": "404",
+          "y": "170"
+        }
+      },
+      {
+        "text": "You are inside of Memorial Stadium. There is a football game that starts in 2 hours.\n\n[[Go back to Assembly Hall->Assembly Hall]]\n[[Wait for the game to start->Football Game]]",
+        "links": [
+          {
+            "name": "Go back to Assembly Hall",
+            "link": "Assembly Hall",
+            "pid": "1"
+          },
+          {
+            "name": "Wait for the game to start",
+            "link": "Football Game",
+            "pid": "6"
+          }
+        ],
+        "name": "Memorial Stadium",
+        "pid": "2",
+        "position": {
+          "x": "186",
+          "y": "322"
+        }
+      },
+      {
+        "text": "You went to Wells Library to study.\n\n[[Go back to Assembly Hall->Assembly Hall]]",
+        "links": [
+          {
+            "name": "Go back to Assembly Hall",
+            "link": "Assembly Hall",
+            "pid": "1"
+          }
+        ],
+        "name": "Wells library",
+        "pid": "3",
+        "position": {
+          "x": "329",
+          "y": "319"
+        }
+      },
+      {
+        "text": "You are on Kirkwood Ave., looking for a place to eat.\n\n[[Eat at Five Guys->Five Guys]]\n[[Eat at Goodfellas->Goodfellas]]\n[[Eat at Jimmy Johns->Jimmy Johns]]",
+        "links": [
+          {
+            "name": "Eat at Five Guys",
+            "link": "Five Guys",
+            "pid": "7"
+          },
+          {
+            "name": "Eat at Goodfellas",
+            "link": "Goodfellas",
+            "pid": "8"
+          },
+          {
+            "name": "Eat at Jimmy Johns",
+            "link": "Jimmy Johns",
+            "pid": "9"
+          }
+        ],
+        "name": "Kirkwood Ave.",
+        "pid": "4",
+        "position": {
+          "x": "479",
+          "y": "320"
+        }
+      },
+      {
+        "text": "You have left campus and are on your way home. \n\n[[Change your mind and turn around->Assembly Hall]]\n",
+        "links": [
+          {
+            "name": "Change your mind and turn around",
+            "link": "Assembly Hall",
+            "pid": "1"
+          }
+        ],
+        "name": "Leave Campus",
+        "pid": "5",
+        "position": {
+          "x": "638",
+          "y": "320"
+        }
+      },
+      {
+        "text": "You watched the game and IU won!",
+        "name": "Football Game",
+        "pid": "6",
+        "position": {
+          "x": "186",
+          "y": "471"
+        }
+      },
+      {
+        "text": "You are ordering at Five Guys. You are unsure what to get.\n\n[[Get a cheeseburger->Cheeseburger]]\n[[Get a milkshake->Milkshake]]\n",
+        "links": [
+          {
+            "name": "Get a cheeseburger",
+            "link": "Cheeseburger",
+            "pid": "10"
+          },
+          {
+            "name": "Get a milkshake",
+            "link": "Milkshake",
+            "pid": "11"
+          }
+        ],
+        "name": "Five Guys",
+        "pid": "7",
+        "position": {
+          "x": "329",
+          "y": "469"
+        }
+      },
+      {
+        "text": "You got a slice of pepperoni pizza.",
+        "name": "Goodfellas",
+        "pid": "8",
+        "position": {
+          "x": "480",
+          "y": "470"
+        }
+      },
+      {
+        "text": "You order a sub at jimmy johns and you are satisfied.",
+        "name": "Jimmy Johns",
+        "pid": "9",
+        "position": {
+          "x": "631",
+          "y": "470"
+        }
+      },
+      {
+        "text": "The burger was tasty and you are satisfied. ",
+        "name": "Cheeseburger",
+        "pid": "10",
+        "position": {
+          "x": "254",
+          "y": "619"
+        }
+      },
+      {
+        "text": "The milkshake was alright, but you are still hungry. You decide to go somewhere else to get more food.\n\n[[Go to Goodfellas->Goodfellas]]\n[[Go to Jimmy Johns->Jimmy Johns]]\n",
+        "links": [
+          {
+            "name": "Go to Goodfellas",
+            "link": "Goodfellas",
+            "pid": "8"
+          },
+          {
+            "name": "Go to Jimmy Johns",
+            "link": "Jimmy Johns",
+            "pid": "9"
+          }
+        ],
+        "name": "Milkshake",
+        "pid": "11",
+        "position": {
+          "x": "406",
+          "y": "619"
+        }
+      }
+    ],
+    "name": "IU campus",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "007996CC-F828-4BC2-B8E0-6C2F7E46B599"
+  }
